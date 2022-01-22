@@ -2,7 +2,7 @@ const _ = require('lodash');
 
 let array = [1,2,3,4,5,6];
 
-console.log("answer", _.without(array, 5));
+console.log("answer", _.without(array, 4));
 
 var [ color1, color2 ] = document.querySelectorAll(".color");
 var text = document.querySelector("h3");
